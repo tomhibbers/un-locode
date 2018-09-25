@@ -1,6 +1,6 @@
-## UNLOCODE Nuget Package
+# UNLOCODE Nuget Package
 
-# Example Usage
+## Example Usage
 ```
 var codes = UNLOCODE.Repositories.Repository.UNLOCODEs.Where(z => z.Name.Contains("South"))?.ToList();
 ```
