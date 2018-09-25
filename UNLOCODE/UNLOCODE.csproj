@@ -5,6 +5,10 @@
     <Authors>Tom Hibbers</Authors>
     <Description>UNLOCODE Nuget Package</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/tomhibbers/un-locode</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
