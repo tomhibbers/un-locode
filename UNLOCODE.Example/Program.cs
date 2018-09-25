@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace UNLOCODE.Example
 {
@@ -6,7 +7,7 @@ namespace UNLOCODE.Example
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var codes = UNLOCODE.Repositories.Repository.UNLOCODEs.Where(z => z.Name.Contains("South"))?.ToList();
         }
     }
 }

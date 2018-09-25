@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Tom Hibbers</Authors>
+    <Description>UNLOCODE Nuget Package</Description>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LumenWorks.Framework.IO.Core" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\code-list_csv.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
