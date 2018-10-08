@@ -1,4 +1,4 @@
-# UNLOCODE Nuget Package
+# UNLOCODE
 
 ## Example Usage
 ```
